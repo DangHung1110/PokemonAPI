@@ -60,7 +60,7 @@
             const response = await fetch(URL);
             return await response.json();
         } catch (error) {
-            console.error('Error fetching data:', error);
+            console.error('Error', error);
             return null;
         }
     }
